@@ -1,0 +1,59 @@
+/* For styling the rendered Markdown */
+
+h1 {
+    font-size: 2.8em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.6em;
+}
+
+h1:before {
+    content: '#1';
+    color: rgba(128,128,128,0.5);
+    font-size: 12px;
+    position: absolute;
+    margin-left: -2em;
+}
+h2:before {
+    content: '#2';
+    color: rgba(128,128,128,0.5);
+    font-size: 12px;
+    position: absolute;
+    margin-left: -2em;
+}
+h3:before {
+    content: '#3';
+    color: rgba(128,128,128,0.5);
+    font-size: 12px;
+    position: absolute;
+    margin-left: -2em;
+}
+h4:before {
+    content: '#4';
+    color: rgba(128,128,128,0.5);
+    font-size: 12px;
+    position: absolute;
+    margin-left: -2em;
+}
+h5:before {
+    content: '#5';
+    color: rgba(128,128,128,0.5);
+    font-size: 12px;
+    position: absolute;
+    margin-left: -2em;
+}
+h6:before {
+    content: '#6';
+    color: rgba(128,128,128,0.5);
+    font-size: 12px;
+    position: absolute;
+    margin-left: -2em;
+}
+
+pre{
+    padding: 1em 1.2em;
+    border-radius: 8px;
+}
